@@ -1,5 +1,11 @@
 Revision history for Nephia-Plugin-Response-YAML
 
+{{$NEXT}}
+
+0.02 2013-06-12T09:27:37Z
+        - done minil migrate
+        - change as prototype
+
 0.01    Date/time
         First version, released on an unsuspecting world.
 

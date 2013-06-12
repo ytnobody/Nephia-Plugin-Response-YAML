@@ -1,71 +1,71 @@
-=head1 NAME
+# NAME
 
 Nephia::Plugin::Response::YAML - A plugin for Nephia that give YAML responding feature
 
-=head1 VERSION
+# VERSION
 
-Version 0.01
+Version 0.02
 
-=head1 SYNOPSIS
+# SYNOPSIS
 
     package MyApp;
     use Nephia;
     use Nephia::Plugin::Response::YAML;
     
+
     path '/' => sub {
         return yaml_res(+{ foo => 'abc', bar => 123 });
     };
 
-=head1 EXPORT
+# EXPORT
 
-=head2 yaml_res( HASHREF )
+## yaml\_res( HASHREF )
 
 Returns PSGI-response that contains YAML formatted contents.
 
-=head1 AUTHOR
+# AUTHOR
 
-ytnobody, C<< <ytnobody aaaatttt gmail> >>
+ytnobody, `<ytnobody aaaatttt gmail>`
 
-=head1 BUGS
+# BUGS
 
-Please report any bugs or feature requests to C<bug-nephia-plugin-response-yaml at rt.cpan.org>, or through
-the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Nephia-Plugin-Response-YAML>.  I will be notified, and then you'll
+Please report any bugs or feature requests to `bug-nephia-plugin-response-yaml at rt.cpan.org`, or through
+the web interface at [http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Nephia-Plugin-Response-YAML](http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Nephia-Plugin-Response-YAML).  I will be notified, and then you'll
 automatically be notified of progress on your bug as I make changes.
 
-=head1 SUPPORT
+# SUPPORT
 
 You can find documentation for this module with the perldoc command.
 
     perldoc Nephia::Plugin::Response::YAML
 
 
+
 You can also look for information at:
 
-=over 4
+- RT: CPAN's request tracker (report bugs here)
 
-=item * RT: CPAN's request tracker (report bugs here)
+    [http://rt.cpan.org/NoAuth/Bugs.html?Dist=Nephia-Plugin-Response-YAML](http://rt.cpan.org/NoAuth/Bugs.html?Dist=Nephia-Plugin-Response-YAML)
 
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Nephia-Plugin-Response-YAML>
+- AnnoCPAN: Annotated CPAN documentation
 
-=item * AnnoCPAN: Annotated CPAN documentation
+    [http://annocpan.org/dist/Nephia-Plugin-Response-YAML](http://annocpan.org/dist/Nephia-Plugin-Response-YAML)
 
-L<http://annocpan.org/dist/Nephia-Plugin-Response-YAML>
+- CPAN Ratings
 
-=item * CPAN Ratings
+    [http://cpanratings.perl.org/d/Nephia-Plugin-Response-YAML](http://cpanratings.perl.org/d/Nephia-Plugin-Response-YAML)
 
-L<http://cpanratings.perl.org/d/Nephia-Plugin-Response-YAML>
+- Search CPAN
 
-=item * Search CPAN
-
-L<http://search.cpan.org/dist/Nephia-Plugin-Response-YAML/>
-
-=back
+    [http://search.cpan.org/dist/Nephia-Plugin-Response-YAML/](http://search.cpan.org/dist/Nephia-Plugin-Response-YAML/)
 
 
-=head1 ACKNOWLEDGEMENTS
+
+# ACKNOWLEDGEMENTS
 
 
-=head1 LICENSE AND COPYRIGHT
+
+# LICENSE AND COPYRIGHT
 
 Copyright 2013 ytnobody.
 
@@ -73,7 +73,7 @@ This program is free software; you can redistribute it and/or modify it
 under the terms of the the Artistic License (2.0). You may obtain a
 copy of the full license at:
 
-L<http://www.perlfoundation.org/artistic_license_2_0>
+[http://www.perlfoundation.org/artistic\_license\_2\_0](http://www.perlfoundation.org/artistic\_license\_2\_0)
 
 Any use, modification, and distribution of the Standard or Modified
 Versions is governed by this Artistic License. By using, modifying or
@@ -105,6 +105,4 @@ CONTRIBUTOR WILL BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, OR
 CONSEQUENTIAL DAMAGES ARISING IN ANY WAY OUT OF THE USE OF THE PACKAGE,
 EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-
-=cut
 
