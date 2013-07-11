@@ -2,6 +2,9 @@ Revision history for Nephia-Plugin-Response-YAML
 
 {{$NEXT}}
 
+0.03 2013-07-11T14:41:32Z
+        - refactor : no inherits Exporter (compliant for Nephia-0.31)
+
 0.02 2013-06-12T09:27:37Z
         - done minil migrate
         - change as prototype

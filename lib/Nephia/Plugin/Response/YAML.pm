@@ -4,7 +4,6 @@ use 5.008;
 use strict;
 use warnings FATAL => 'all';
 use YAML ();
-use Exporter 'import';
 our @EXPORT = qw/ yaml_res /;
 
 sub yaml_res ($) {
@@ -22,11 +21,11 @@ Nephia::Plugin::Response::YAML - A plugin for Nephia that give YAML responding f
 
 =head1 VERSION
 
-Version 0.02
+Version 0.03
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 =head1 SYNOPSIS
 
