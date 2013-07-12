@@ -4,7 +4,7 @@ Nephia::Plugin::Response::YAML - A plugin for Nephia that give YAML responding f
 
 # VERSION
 
-Version 0.03
+Version 0.04
 
 # SYNOPSIS
 
