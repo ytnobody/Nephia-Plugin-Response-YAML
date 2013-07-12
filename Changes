@@ -1,6 +1,7 @@
 Revision history for Nephia-Plugin-Response-YAML
 
 {{$NEXT}}
+        - bug fix : specify deps version (Nephia-0.32)
 
 0.03 2013-07-11T14:41:32Z
         - refactor : no inherits Exporter (compliant for Nephia-0.31)
