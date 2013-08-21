@@ -14,5 +14,5 @@ inc/
 nytprof.out
 pod2htm*.tmp
 pm_to_blib
-Nephia-Plugin-Response-YAML-*
-Nephia-Plugin-Response-YAML-*.tar.gz
+PrimalNephia-Plugin-Response-YAML-*
+PrimalNephia-Plugin-Response-YAML-*.tar.gz

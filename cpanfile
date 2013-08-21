@@ -1,4 +1,4 @@
-requires 'Nephia', '0.32';
+requires 'PrimalNephia', '0.32';
 requires 'YAML';
 requires 'perl', '5.008';
 

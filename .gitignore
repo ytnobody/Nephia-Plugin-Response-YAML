@@ -8,7 +8,7 @@ Makefile.old
 nytprof.out
 MANIFEST.bak
 *.sw[po]
-/Nephia-Plugin-Response-YAML-*
+/PrimalNephia-Plugin-Response-YAML-*
 /.build
 /_build_params
 /Build

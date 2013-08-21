@@ -7,7 +7,7 @@ use Test::More;
 plan tests => 1;
 
 BEGIN {
-    use_ok( 'Nephia::Plugin::Response::YAML' ) || print "Bail out!\n";
+    use_ok( 'PrimalNephia::Plugin::Response::YAML' ) || print "Bail out!\n";
 }
 
-diag( "Testing Nephia::Plugin::Response::YAML $Nephia::Plugin::Response::YAML::VERSION, Perl $], $^X" );
+diag( "Testing PrimalNephia::Plugin::Response::YAML $PrimalNephia::Plugin::Response::YAML::VERSION, Perl $], $^X" );

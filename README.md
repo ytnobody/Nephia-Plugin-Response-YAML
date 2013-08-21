@@ -1,6 +1,6 @@
 # NAME
 
-Nephia::Plugin::Response::YAML - A plugin for Nephia that give YAML responding feature
+PrimalNephia::Plugin::Response::YAML - A plugin for PrimalNephia that give YAML responding feature
 
 # VERSION
 
@@ -9,8 +9,8 @@ Version 0.04
 # SYNOPSIS
 
     package MyApp;
-    use Nephia;
-    use Nephia::Plugin::Response::YAML;
+    use PrimalNephia;
+    use PrimalNephia::Plugin::Response::YAML;
     
 
     path '/' => sub {
@@ -30,14 +30,14 @@ ytnobody, `<ytnobody aaaatttt gmail>`
 # BUGS
 
 Please report any bugs or feature requests to `bug-nephia-plugin-response-yaml at rt.cpan.org`, or through
-the web interface at [http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Nephia-Plugin-Response-YAML](http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Nephia-Plugin-Response-YAML).  I will be notified, and then you'll
+the web interface at [http://rt.cpan.org/NoAuth/ReportBug.html?Queue=PrimalNephia-Plugin-Response-YAML](http://rt.cpan.org/NoAuth/ReportBug.html?Queue=PrimalNephia-Plugin-Response-YAML).  I will be notified, and then you'll
 automatically be notified of progress on your bug as I make changes.
 
 # SUPPORT
 
 You can find documentation for this module with the perldoc command.
 
-    perldoc Nephia::Plugin::Response::YAML
+    perldoc PrimalNephia::Plugin::Response::YAML
 
 
 
@@ -45,19 +45,19 @@ You can also look for information at:
 
 - RT: CPAN's request tracker (report bugs here)
 
-    [http://rt.cpan.org/NoAuth/Bugs.html?Dist=Nephia-Plugin-Response-YAML](http://rt.cpan.org/NoAuth/Bugs.html?Dist=Nephia-Plugin-Response-YAML)
+    [http://rt.cpan.org/NoAuth/Bugs.html?Dist=PrimalNephia-Plugin-Response-YAML](http://rt.cpan.org/NoAuth/Bugs.html?Dist=PrimalNephia-Plugin-Response-YAML)
 
 - AnnoCPAN: Annotated CPAN documentation
 
-    [http://annocpan.org/dist/Nephia-Plugin-Response-YAML](http://annocpan.org/dist/Nephia-Plugin-Response-YAML)
+    [http://annocpan.org/dist/PrimalNephia-Plugin-Response-YAML](http://annocpan.org/dist/PrimalNephia-Plugin-Response-YAML)
 
 - CPAN Ratings
 
-    [http://cpanratings.perl.org/d/Nephia-Plugin-Response-YAML](http://cpanratings.perl.org/d/Nephia-Plugin-Response-YAML)
+    [http://cpanratings.perl.org/d/PrimalNephia-Plugin-Response-YAML](http://cpanratings.perl.org/d/PrimalNephia-Plugin-Response-YAML)
 
 - Search CPAN
 
-    [http://search.cpan.org/dist/Nephia-Plugin-Response-YAML/](http://search.cpan.org/dist/Nephia-Plugin-Response-YAML/)
+    [http://search.cpan.org/dist/PrimalNephia-Plugin-Response-YAML/](http://search.cpan.org/dist/PrimalNephia-Plugin-Response-YAML/)
 
 
 

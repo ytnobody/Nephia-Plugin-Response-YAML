@@ -1,18 +1,18 @@
 {
-   "abstract" : "A plugin for Nephia that give YAML responding feature",
+   "abstract" : "A plugin for PrimalNephia that give YAML responding feature",
    "author" : [
       "ytnobody, C<< <ytnobody aaaatttt gmail> >>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.5.3, CPAN::Meta::Converter version 2.131560",
+   "generated_by" : "Minilla/v0.6.3, CPAN::Meta::Converter version 2.130880",
    "license" : [
-      "unknown"
+      "artistic_1"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
    },
-   "name" : "Nephia-Plugin-Response-YAML",
+   "name" : "PrimalNephia-Plugin-Response-YAML",
    "no_index" : {
       "directory" : [
          "t",
@@ -47,7 +47,7 @@
       },
       "runtime" : {
          "requires" : {
-            "Nephia" : "0.32",
+            "PrimalNephia" : "0.32",
             "YAML" : "0",
             "perl" : "5.008"
          }
@@ -56,13 +56,13 @@
    "release_status" : "unstable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/ytnobody/Nephia-Plugin-Response-YAML/issues"
+         "web" : "https://github.com/ytnobody/PrimalNephia-Plugin-Response-YAML/issues"
       },
-      "homepage" : "https://github.com/ytnobody/Nephia-Plugin-Response-YAML",
+      "homepage" : "https://github.com/ytnobody/PrimalNephia-Plugin-Response-YAML",
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/ytnobody/Nephia-Plugin-Response-YAML.git",
-         "web" : "https://github.com/ytnobody/Nephia-Plugin-Response-YAML"
+         "url" : "git://github.com/ytnobody/PrimalNephia-Plugin-Response-YAML.git",
+         "web" : "https://github.com/ytnobody/PrimalNephia-Plugin-Response-YAML"
       }
    },
    "version" : "0.04",

@@ -1,4 +1,4 @@
-package Nephia::Plugin::Response::YAML;
+package PrimalNephia::Plugin::Response::YAML;
 
 use 5.008;
 use strict;
@@ -17,7 +17,7 @@ sub yaml_res ($) {
 
 =head1 NAME
 
-Nephia::Plugin::Response::YAML - A plugin for Nephia that give YAML responding feature
+PrimalNephia::Plugin::Response::YAML - A plugin for PrimalNephia that give YAML responding feature
 
 =head1 VERSION
 
@@ -30,8 +30,8 @@ our $VERSION = '0.04';
 =head1 SYNOPSIS
 
     package MyApp;
-    use Nephia;
-    use Nephia::Plugin::Response::YAML;
+    use PrimalNephia;
+    use PrimalNephia::Plugin::Response::YAML;
     
     path '/' => sub {
         return yaml_res(+{ foo => 'abc', bar => 123 });
@@ -50,14 +50,14 @@ ytnobody, C<< <ytnobody aaaatttt gmail> >>
 =head1 BUGS
 
 Please report any bugs or feature requests to C<bug-nephia-plugin-response-yaml at rt.cpan.org>, or through
-the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Nephia-Plugin-Response-YAML>.  I will be notified, and then you'll
+the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=PrimalNephia-Plugin-Response-YAML>.  I will be notified, and then you'll
 automatically be notified of progress on your bug as I make changes.
 
 =head1 SUPPORT
 
 You can find documentation for this module with the perldoc command.
 
-    perldoc Nephia::Plugin::Response::YAML
+    perldoc PrimalNephia::Plugin::Response::YAML
 
 
 You can also look for information at:
@@ -66,19 +66,19 @@ You can also look for information at:
 
 =item * RT: CPAN's request tracker (report bugs here)
 
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Nephia-Plugin-Response-YAML>
+L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=PrimalNephia-Plugin-Response-YAML>
 
 =item * AnnoCPAN: Annotated CPAN documentation
 
-L<http://annocpan.org/dist/Nephia-Plugin-Response-YAML>
+L<http://annocpan.org/dist/PrimalNephia-Plugin-Response-YAML>
 
 =item * CPAN Ratings
 
-L<http://cpanratings.perl.org/d/Nephia-Plugin-Response-YAML>
+L<http://cpanratings.perl.org/d/PrimalNephia-Plugin-Response-YAML>
 
 =item * Search CPAN
 
-L<http://search.cpan.org/dist/Nephia-Plugin-Response-YAML/>
+L<http://search.cpan.org/dist/PrimalNephia-Plugin-Response-YAML/>
 
 =back
 
@@ -129,4 +129,4 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 =cut
 
-1; # End of Nephia::Plugin::Response::YAML
+1; # End of PrimalNephia::Plugin::Response::YAML

@@ -50,7 +50,7 @@ TODO: {
     "placeholder date/time"       => qr(Date/time)
   );
 
-  module_boilerplate_ok('lib/Nephia/Plugin/Response/YAML.pm');
+  module_boilerplate_ok('lib/PrimalNephia/Plugin/Response/YAML.pm');
 
 
 }
